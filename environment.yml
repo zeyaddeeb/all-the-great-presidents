@@ -1,0 +1,17 @@
+name: presidents
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - black
+  - numpy
+  - matplotlib
+  - pandas
+  - jupyter
+  - jupyterlab
+  - requests
+  - pip:
+      - nb_black
+      - beautifulsoup4
+      - textstat
+      - gensim
